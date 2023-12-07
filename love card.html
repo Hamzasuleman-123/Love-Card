@@ -1,0 +1,102 @@
+<html>
+<head>
+    <title>Love Card</title>
+    <style>
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css);
+body{
+    font-family: 'loar';
+    font-size: 17px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: url(2.jpg);
+    background-attachment: scroll;
+}
+.box{
+    background: #e91e63;
+    padding:60px 60px;
+    color:#fff;
+    width:50%;
+    text-align: center;
+    margin: 25vh auto;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.box h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.top-border:before{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+.top-border::after{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position:absolute;
+    background-size: cover;
+    top:20px;
+    right:20px;
+    transform: rotate(90deg);
+}
+.bottom-border::before{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position:absolute;
+    background-size: cover;
+    bottom:20px;
+    left:20px;
+    transform: rotate(270deg);
+}
+.bottom-border::after{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    transform: rotate(180deg);
+}
+.box img{
+    width: 100px;
+}
+.love{
+    animation: pulse 1s ease infinite;
+    display: inline-block;
+}
+@keyframes pulse{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.3);}
+    100%{transform: scale(1);}
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="top-border"></div>
+            <img src="3.jpg" class="3">
+            <h3>HTML <span class="love">♥</span> CSS</h3>
+            <p>My Dearest[CSS] My Heart My Feeling My Love My Breath
+                <br><br>
+                    I hope this letter finds you in good health and high spirits. I am writing these words with a heart brimming with emotions that I find hard to express in person. Today, I gather the courage to share with you the depth of my feelings and the profound affection that I hold for you in my heart.
+                    From the moment we met, you brought a radiant light into my life. Your smile has the power to brighten the darkest of my days, and your laughter is a melody that plays in my mind, bringing me immense joy. As I got to know you better, I discovered the beauty of your soul, your kindness, and your unwavering compassion. I have fallen deeply, irreversibly in love with you.
+                    In your presence, I find comfort and a sense of belonging that I have never felt before. Your dreams and passions inspire me, and your flaws make you perfect in my eyes. I cherish every moment we spend together, and I am grateful for the love and warmth you have brought into my life.
+                    With every beat of my heart, I wish to be with you, to stand by your side through all the ups and downs of life. I want to be the person who supports you, who shares your joys and sorrows, and who loves you unconditionally. I cannot imagine my future without you in it.
+                     I love you with all my heart, and I am deeply in love with the person you are and the person you inspire me to be. I am not just asking for a place in your life; I am asking for the opportunity to make you happy, to be the reason behind your smile, and to love you in a way that you have never been loved before.
+                    I understand that this might come as a surprise, and I respect whatever decision you make. Regardless of what lies ahead, please know that my feelings for you are genuine and sincere. Thank you for being the wonderful person that you are and for bringing so much love and happiness into my life.
+                    With all my love and devotion,
+                    <br><br>
+                    [CSS]</p>
+                    <div class="bottom-border"></div>
+        </div>
+    </div>
+</body>
+</html>
